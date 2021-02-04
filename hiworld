@@ -1,0 +1,8 @@
+const name = 'Ruslan' 
+const surname = 'Alyasin'
+
+const getCarInfo = (name, surname) => {
+  return 'My name is:' + ' ' + name + ' ' + surname
+}
+
+display.log(getCarInfo(name, surname))
